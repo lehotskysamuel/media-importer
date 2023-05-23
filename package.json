@@ -1,0 +1,27 @@
+{
+  "name": "media-importer",
+  "version": "1.0.0",
+  "description": "Companion tool to turn media files into MDX snippets",
+  "main": "index.js",
+  "scripts": {
+    "make": "pkg -t node16-win-x64 -o %userprofile%/Desktop/media-importer.exe index.js",
+    "run-exe": "./media-importer.exe",
+    "run-compiled": "yarn make && yarn run-exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lehotskysamuel/media-importer.git"
+  },
+  "author": "Samuel Lehotsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lehotskysamuel/media-importer/issues"
+  },
+  "homepage": "https://github.com/lehotskysamuel/media-importer#readme",
+  "dependencies": {
+    "pkg": "^5.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}

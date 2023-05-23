@@ -1,0 +1,9 @@
+# Build outputs
+media-importer.exe
+
+# IDEs
+.idea/
+.vscode/
+
+# Dependency directories
+node_modules/
